@@ -1,0 +1,47 @@
+<!-- Booking form -->
+<div class="container d-flex" id="book" style="justify-content: center; padding: 30px; background-color: white; max-width: 100%;">
+  <!-- Informing potential client of information pertaining to their tattoo -->
+  <div class="information">
+    <p>
+      This is a standard submission form, please READ THIS before submitting: <br />
+
+      Please submit through this form so that I can arrange a personal consultation, at no cost to you. This is where I can discuss your design and give you an accurate price quote.<br />
+      We can arrange an appointment at that time, with a non refundable down-payment.<br />
+
+
+
+      All Tattoos by appointment only, no walk-ins accepted.<br />
+
+      Please only submit small images and NO screen shots (i.e.: from Pinterest). Also, minors will not be accepted; under 18 years of age.<br />
+
+      All designs and sizes are subject to change, and positions are only suggested - generally with positions like hands, heads, genitalia, or places that won't generally hold the ink well or be most suitable for the work will be strongly advised to changed, or .may be turned down.<br />
+
+      Thanks again for your submission, I'll respond to your email as soon as I can.<br />
+    </p>
+  </div>
+  <div class="book" style="padding: 30px;" >
+    <h1>
+      Booking Form
+    </h1>
+    <h3><i>(Temporarily disabled)</i></h3>
+    <!-- Lead form to book appointments -->
+    <form class="lead" action="index.html" method="post">
+      <input class="leadInput" id="input" type="text" name="fname" placeholder="First Name" value="">
+      <input class="leadInput" id="input" type="text" name="lname" placeholder="Last Name" value="">
+      <input class="leadInput" id="input" type="text" name="email" placeholder="Email" value="">
+      <input class="leadInput"  id="input" type="text" name="phone" placeholder="Phone" value="">
+      <input class="leadInput" id="input" type="text" name="description" placeholder="Describe your tattoo" value="">
+      <input class="leadInput" id="input" type="text" name="location" placeholder="Where on your body" value="">
+      <input class="leadInput" id="input" type="text" name="reference" placeholder="Reference Image" value="">
+      <input class="leadInput" id="input" type="checkbox" name="agreement" value="Yes">
+      <button type="button" id="button" name="button">Submit</button>
+    </form>
+    <div class="spacer">
+
+    </div>
+    <div class="bookingImage" >
+      <img class="bookingImage" src="/img/studio.jpg" alt="Shop Setup" style="object-fit: cover; width: 400px; height:auto; padding: 30px; dropshadow:10px">
+    </div>
+  </div>
+</div>
+<%- include('maps.ejs') %>

@@ -1,2 +1,2 @@
 # jamestakeotattoos
-Professional Website of James Takeo
+Website for James Takeo Tattoos

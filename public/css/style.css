@@ -1,0 +1,86 @@
+a{color: black; text-decoration: none;}
+a:link { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
+a:active { color: #red; text-decoration: none;}
+a:visited {color: black; text-decoration: none;}
+p{
+  word-wrap: normal;
+}
+.html{
+  background-image:url("/img/James_Art02.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+
+}
+.takeo-nav{
+  padding: 10px;
+}
+.social{
+  padding: 10px;
+}
+.space{
+  height: 15rem;
+  background-image:url("/img/James_Art02.jpg");
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:fill;
+  max-width: 100%;
+    
+}
+.spacer{
+  height: 2rem;
+}
+.container1 {
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 9.38rem;
+  gap: 0px;
+  width: 100%;
+  max-width: 39rem;
+  padding: 0.5rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  object-fit: cover;
+
+}
+
+
+.item {
+  border-radius: 0px;
+  background-color: black;
+  background-image: black;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  max-width:9.38rem;
+  max-height:100%;
+  height: 300px; /* [1.1] Set it as per your need */
+  transform: scale(1);
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.img-hover-zoom {
+
+}
+
+/* [2] Transition property for smooth transformation of images */
+.item img {
+  transition: transform 5s ease;
+   filter: blur(0px);
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.item:hover img {
+  transform: scale(3);
+  filter: blur(0);
+}
+.bookingImage{
+  filter: drop-shadow(0px 0px 10px black);
+}
+.leadInput{
+  border-radius: 5px;
+  padding:3px;
+  border-width: thin;
+}
